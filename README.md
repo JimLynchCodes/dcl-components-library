@@ -30,7 +30,7 @@ For example, here's how easy it is to add the "spinning crate" component onto yo
 import { SpinningCrate } from '@example-org/dcl-components-library';
 
 // Create the entity
-const spinningCrate = new SpinningCrate()
+const spinningCrate = new SpinningCrate(42)
 
 // Add the entity to the engine
 engine.addEntity(spinningCrate)
